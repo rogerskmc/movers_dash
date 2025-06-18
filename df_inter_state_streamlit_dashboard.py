@@ -28,14 +28,7 @@ st.set_page_config(
 # Load data
 inbound = pd.read_csv('inbound.csv')
 outbound = pd.read_csv('outbound.csv')
-flows1 = pd.read_csv('flows1.csv')
-flows2 = pd.read_csv('flows2.csv')
-flows3 = pd.read_csv('flows3.csv')
-#flows4 = pd.read_csv('flows4.csv')
-#flows5 = pd.read_csv('flows5.csv')
-#flows = pd.concat([flows1, flows2, flows3, flows4, flows5])
-
-flows = pd.concat([flows1, flows2, flows3])
+flows = pd.read_csv('flows.csv')
 
 #######################
 # Sidebar
