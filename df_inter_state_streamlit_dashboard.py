@@ -148,7 +148,7 @@ with col3[1]:
     with st.expander('About', expanded=True):
         st.write('''
             - :orange[**Data**]: [U.S. Census Bureau. American Community Survey Public Use Microdata Sample (PUMS) 1-Year, 2023. Accessed via the ACS API.](<https://www.census.gov/programs-surveys/acs/microdata/access.html>)
-            - :orange[**Note**]: The inbound and outbound components above are independent of each other. Top direct migration flows are displayed in the table to the left.
+            - :orange[**Note**]: The inbound and outbound components above are independent of each other. Top direct migration flows are displayed in the table to the left. All estimates are weighted.
             - :orange[**Disclaimer**]: This dashboard is for educational purposes only and should not be used for decision-making without further analysis.
             - :orange[**Questions? Suggestions?**] contact DSTP Cohort 6 Capstone Team A3 member, Kathleen Rogers (EWD)
             ''')
